@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=5.0, minimum-scale=0.5">
+    <title>Pedido Especial!</title>
+
+    <style>
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css');
+
+        .body {
+            font-family: 'Lora';
+            font-size: 17px;
+            line-height: 1.5;
+            background-color: #db5656;
+            background-image: url("bg.jpg");
+            background-attachment: scroll;
+        }
+
+        .box {
+            background: #e91e63;
+            padding: 60px 60px;
+            color: #fff;
+            width: 50%;
+            text-align: center;
+            margin: 25vh auto;
+            position: relative;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .box h3 {
+            font-size: 30px;
+            font-weight: 400;
+            text-transform: uppercase;
+            margin: 5px;
+        }
+
+        .top-border:before {
+            content: '';
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background: url('../assets/img/corner.png');
+            background-size: cover;
+            top: 20px;
+            left: 20px;
+            transform: rotate(270deg);
+        }
+
+        .top-border:after {
+            content: '';
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background: url('../assets/img/corner.png');
+            background-size: cover;
+            top: 20px;
+            right: 20px;
+        }
+
+        .bottom-border:before {
+            content: '';
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background: url('../assets/img/corner.png');
+            background-size: cover;
+            bottom: 20px;
+            left: 20px;
+            transform: rotate(180deg);
+        }
+
+        .bottom-border:after {
+            content: '';
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            background: url('../assets/img/corner.png');
+            background-size: cover;
+            bottom: 20px;
+            right: 20px;
+            transform: rotate(90deg);
+        }
+
+        .box img {
+            width: 100px;
+        }
+
+        .love {
+            animation: pulse 1s ease infinite;
+            display: inline-block;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.3);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .btn {
+            cursor: pointer;
+            color: #fff;
+            border: 1px solid red;
+            background-color: red;
+            padding: .475rem .75rem;
+            font-family: 'Lora';
+            font-weight: 400;
+            font-size: 1rem;
+            text-transform: uppercase;
+            border-radius: .25rem;
+        }
+
+        .btn:hover {
+            cursor: pointer;
+            color: #fff;
+            border: 1px solid #ff0000c9;
+            background-color: #ff0000c9;
+            padding: .475rem .75rem;
+            font-family: 'Lora';
+            font-weight: 400;
+            font-size: 1rem;
+            text-transform: uppercase;
+            border-radius: .25rem;
+        }
+    </style>
+
+</head>
+
+<body style="background-image: url('../assets/img/bg3.jpg');">
+    <div class="main">
+        <div class="box">
+            <div class="top-border"></div>
+            <!-- <img src="rings.png" class="ring"> -->
+            <h3><span class="love">❤❤</span> Eu te amooo!!! <span class="love">❤❤</span></h3>
+            <p>(Em todas as línguas e idiomas)</p>
+            <p>Wo ai ni,
+                I love you,
+                Te quiero / Te amo,
+                Je t'aime, Ich liebe dich,
+                Ti amo,
+                Aishiteru, Saranghae,
+                Ya tebya liubliu,
+                Ana behibak, Ani ohev otach
+                Eu te amo,
+                Seni seviyorum,
+                Main tumse pyar karta hoon,
+                Ami tomake bhalobashi,
+                S'agapo,
+                Jag älskar dig,
+                Jeg elsker deg,
+                Jeg elsker dig,
+                Ik hou van je,
+                Kocham cię,
+                Miluji tě,
+                Milujem ťa,
+                Szeretlek,
+                Te iubesc,
+                Volim te,
+                Volim te,
+                Obicham te,
+                Ljubim te,
+                Te dua,
+                Te sakam,
+                Ég elska þig,
+                Rakastan sinua,
+                Ma armastan sind,
+                Aš tave myliu,
+                Es tevi mīlu,
+                Em yêu anh,
+                Chan rak khun,
+                Mahal kita,
+                Saya cintakan awak,
+                Saya cinta kamu,
+                Nakupenda,
+                Ngiyakuthanda,
+                Ndiyakuthanda,
+                Ke a go rata,
+                Ke a go rata,
+                Naku penda,
+                Maite zaitut,
+                T'estimo,
+                Rwy'n dy garu di,
+                Tá grá agam ort,
+                Tha gaol agam ort,
+                Eg elski teg,
+                Is tu gràdh na h-alba,
+                Ja ciabie kachaju,
+                Jien inħobbok,
+                Mi amas vin,
+                Men seni jaksy kuremіn,
+                Menin seni süyöm,
+                Mən səni sevirəm,
+                me shens miq'varxar,
+                Es kez sirum em,
+                Mo̱i to̱mak bhal po̱ŋkho̱,
+                Main tujhse pyar karta hoon,
+                Ma tapailai maya garchhu,
+                Mu tumaku bhalapaee,
+                Main tainu pyaar karda haan,
+                Waan ku jeclahay,
+                Man toro dust medoram,
+                Ya tebe kokhaju,
+                Main tum se pyar karta hoon,
+                Men seni sevaman,
+                Mo nifẹ rẹ,
+                Ngiyakuthanda.
+            </p>
+            <br>
+            <div class="bottom-border"></div>
+
+            <!-- <a href="pedido.html"><button type="button" class="btn">Continuar</button></a> -->
+        </div>
+    </div>
+</body>
+
+</html>
